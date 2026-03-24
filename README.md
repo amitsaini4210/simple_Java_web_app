@@ -1,4 +1,4 @@
-# Project: Login Web Application(Servlet +MySQL +Tomcat)
+# Project: Login Web Application(Servlet + MySQL + Tomcat)
   
 ## MySQL Database Setup
 ## Run this in MySQL:
