@@ -1,7 +1,7 @@
-**Project: Login Web Application (Servlet + MySQL + Tomcat)**
+## Project: Login Web Application (Servlet + MySQL + Tomcat)**
   
-## MySQL Database Setup
-## Run this in MySQL:
+# MySQL Database Setup
+# Run this in MySQL:
 
 CREATE DATABASE login_db;
 
@@ -17,21 +17,21 @@ INSERT INTO users (username, password)
 VALUES ('admin', '12345');
 
 
-## Create WAR File
-## Inside project folder run:
+# Create WAR File
+# Inside project folder run:
 jar -cvf LoginApp.war *
 
-## Deploy to Tomcat
-## Copy WAR file to:
+# Deploy to Tomcat
+# Copy WAR file to:
 tomcat/webapps/
 
-## Start Tomcat: 
+# Start Tomcat: 
 startup.sh
 
-## Open browser:
+# Open browser:
 http://localhost:8080/LoginApp
 
-## Login credentials:
+# Login credentials:
 Username: admin
 
 Password: 12345
