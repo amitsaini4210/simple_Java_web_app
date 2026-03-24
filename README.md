@@ -41,6 +41,13 @@
     docker run -d -p 8080:8080 login-app:v1
 
 
+## Deploy in Kubernetes
+    kubectl apply -f deployment.yml
+    kubectl apply -f service.yml
+
+## Access:
+    http://<NodeIP>:30007/LoginApp
+
 
 
 
