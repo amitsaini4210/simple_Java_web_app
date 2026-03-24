@@ -31,6 +31,18 @@
     http://localhost:8080/LoginApp
 
 ## Login credentials:
-```bash
-Username: admin
-Password: 12345
+    Username: admin
+    Password: 12345
+
+
+## IF run by Docker make Dockerfile then
+## Build Docker Image
+    docker build -t login-app:v1 .
+    docker run -d -p 8080:8080 login-app:v1
+
+
+
+
+
+
+
